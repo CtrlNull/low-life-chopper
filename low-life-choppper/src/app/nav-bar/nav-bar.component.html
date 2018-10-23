@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <img class="rounded-circle" src="https://dsmv6m9so2sgl.cloudfront.net/photos/891978/1533207735609_300.jpg" alt="Generic placeholder image"
-    width="40" height="40" margin-right="8">
-  <a class="navbar-brand" href="#">LowLife Chopper Podcast</a>
+    width="40" height="40" margin-right="8" [routerLink]="['/home']" routerLinkActive="router-link-active" >
+  <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="router-link-active" >LowLife Chopper Podcast</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,26 +9,23 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Podcast</a>
+        <a class="nav-link disabled" [routerLink]="['/error']" routerLinkActive="router-link-active" >Podcast</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Blog</a>
+        <a class="nav-link disabled" [routerLink]="['/error']" routerLinkActive="router-link-active" >Blog</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link disabled" href="#">Fourm</a>
+          <a class="nav-link disabled" [routerLink]="['/error']" routerLinkActive="router-link-active" >Fourm</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#">Shop</a>
+            <a class="nav-link disabled" [routerLink]="['/error']" routerLinkActive="router-link-active" >Shop</a>
           </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Support</a>
+        <a class="nav-link disabled" [routerLink]="['/error']" routerLinkActive="router-link-active" >Support</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contact</a>
+        <a class="nav-link" [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact</a>
       </li>
-
-
-
     </ul>
     <form class="form-inline mt-2 mt-md-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">

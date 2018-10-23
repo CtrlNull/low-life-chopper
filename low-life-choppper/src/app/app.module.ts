@@ -12,6 +12,8 @@ import { HomeCarouselComponent } from './home/home-carousel/home-carousel.compon
 import { HomeHeadingsComponent } from './home/home-headings/home-headings.component';
 import { HomeFeaturetteComponent } from './home/home-featurette/home-featurette.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { StillPhotoComponent } from './home/still-photo/still-photo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SignInComponent } from './sign-in/sign-in.component';
     HomeCarouselComponent,
     HomeHeadingsComponent,
     HomeFeaturetteComponent,
-    SignInComponent
+    SignInComponent,
+    NotFoundComponent,
+    StillPhotoComponent
   ],
   imports: [
     BrowserModule,
