@@ -1,0 +1,15 @@
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+form {
+  display: block;
+}
+
+.text-center {
+  text-align: center!important;
+  margin-top: 15%;
+}

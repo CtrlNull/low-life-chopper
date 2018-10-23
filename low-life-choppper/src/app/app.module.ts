@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { HomeCarouselComponent } from './home/home-carousel/home-carousel.component';
 import { HomeHeadingsComponent } from './home/home-headings/home-headings.component';
 import { HomeFeaturetteComponent } from './home/home-featurette/home-featurette.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeFeaturetteComponent } from './home/home-featurette/home-featurette.
     PodcastComponent,
     HomeCarouselComponent,
     HomeHeadingsComponent,
-    HomeFeaturetteComponent
+    HomeFeaturetteComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,
