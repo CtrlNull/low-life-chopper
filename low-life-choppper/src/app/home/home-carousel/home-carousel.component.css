@@ -1,10 +1,23 @@
-.jumbotron {
+.carousel {
   padding: 4rem 2rem;
 }
 
-.jumbotron {
-  margin-top: 5%;
+.carousel {
+  margin-top: 20%;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: .3rem;
+}
+
+.w-100 {
+  width: 100%!important;
+}
+.d-block {
+  display: block!important;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
 }
