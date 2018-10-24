@@ -8,12 +8,19 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { PodcastComponent } from './podcast/podcast.component';
 import { RouterModule } from '@angular/router';
-import { HomeCarouselComponent } from './home/home-carousel/home-carousel.component';
 import { HomeHeadingsComponent } from './home/home-headings/home-headings.component';
-import { HomeFeaturetteComponent } from './home/home-featurette/home-featurette.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { StillPhotoComponent } from './home/still-photo/still-photo.component';
+import { ShopComponent } from './shop/shop.component';
+import { ShopCarouselComponent } from './shop/shop-carousel/shop-carousel.component';
+import { HomeThumbnailComponent } from './home/home-thumbnail/home-thumbnail.component';
+import { PodcastThumbnailComponent } from './podcast/podcast-thumbnail/podcast-thumbnail.component';
+import { PodcastJumbotronComponent } from './podcast/podcast-jumbotron/podcast-jumbotron.component';
+import { HomeJumbotronComponent } from './home/home-jumbotron/home-jumbotron.component';
+import { BlogComponent } from './blog/blog.component';
+import { ChatComponent } from './chat/chat.component';
+import { ChatBoxComponent } from './chat/chat-box/chat-box.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +30,19 @@ import { StillPhotoComponent } from './home/still-photo/still-photo.component';
     FooterComponent,
     ContactComponent,
     PodcastComponent,
-    HomeCarouselComponent,
     HomeHeadingsComponent,
-    HomeFeaturetteComponent,
     SignInComponent,
     NotFoundComponent,
-    StillPhotoComponent
+    StillPhotoComponent,
+    ShopComponent,
+    ShopCarouselComponent,
+    HomeThumbnailComponent,
+    PodcastThumbnailComponent,
+    PodcastJumbotronComponent,
+    HomeJumbotronComponent,
+    BlogComponent,
+    ChatComponent,
+    ChatBoxComponent
   ],
   imports: [
     BrowserModule,

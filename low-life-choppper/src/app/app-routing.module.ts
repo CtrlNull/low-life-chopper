@@ -1,3 +1,5 @@
+import { BlogComponent } from './blog/blog.component';
+import { ShopComponent } from './shop/shop.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { HomeComponent } from './home/home.component';
 import { Routes } from '@angular/router';
@@ -13,6 +15,8 @@ export const routes: Routes = [
   { path: 'signin', component: SignInComponent },
   { path: 'podcast', component: PodcastComponent },
   { path: 'contact', component: ContactComponent},
+  { path: 'shop', component: ShopComponent },
+  { path: 'podcast', component: PodcastComponent },
+  { path: 'blog', component: BlogComponent },
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
-  
 ]

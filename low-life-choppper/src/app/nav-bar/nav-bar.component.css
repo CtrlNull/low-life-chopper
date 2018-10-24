@@ -1,6 +1,7 @@
 .navbar {
   padding: .5rem 1rem;
   display: flex;
+  margin-bottom: 0!important;
 }
 
 .fixed-top {

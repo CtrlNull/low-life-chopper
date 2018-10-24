@@ -1,5 +1,5 @@
 body {
-  padding-top: 8rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
@@ -13,9 +13,4 @@ body {
   /* color: #212529; */
   text-align: left;
   background-color: #fff;
-}
-
-hr {
-  margin-left: 10%;
-  margin-right: 10%;
 }
